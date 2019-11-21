@@ -8,7 +8,7 @@
 <div>
     <h1><a href="/">My Blog</a></h1>
 </div>
-{% for post in posts %}
+{% for post in all_posts %}
 <div>
     <p>published: {{ post.published_date }} </p>
     <h2><a href="">{{ post.title }}</a> </h2>
